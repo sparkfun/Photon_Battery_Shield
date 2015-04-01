@@ -9815,12 +9815,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="95.37" y="20.75"/>
 </polygon>
 </package>
-<package name="FIDUCIAL-1X2">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="MICRO-FIDUCIAL">
-<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
-</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -10815,11 +10809,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="49.69" y="10.37"/>
 </polygon>
 </symbol>
-<symbol name="FIDUCIAL">
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -10932,25 +10921,6 @@ layer for the logo on the board is tSilk.</description>
 </technologies>
 </device>
 <device name="1_INCH" package="SFE_LOGO_NAME_1">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FIDUCIAL" prefix="FID">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-Various fiducial points for machine vision alignment.</description>
-<gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1X2" package="FIDUCIAL-1X2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13623,13 +13593,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NC_BY_TRACE" device=""/>
 <part name="P+1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
-<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="91.44" y="121.92" size="1.778" layer="97">LiPo Battery</text>
+<text x="-38.1" y="137.16" size="1.778" layer="97">Optional VIN pads</text>
 <text x="124.46" y="-7.62" size="3.81" layer="94">Cody Knutson</text>
 <text x="195.58" y="-7.62" size="2.54" layer="94">1</text>
 </plain>
@@ -13671,8 +13640,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SJ2" gate="G$1" x="162.56" y="121.92" rot="R270"/>
 <instance part="P+1" gate="G$1" x="162.56" y="129.54"/>
 <instance part="LOGO1" gate="G$1" x="-43.18" y="-12.7"/>
-<instance part="FID1" gate="G$1" x="195.58" y="2.54"/>
-<instance part="FID2" gate="G$1" x="200.66" y="2.54" rot="R90"/>
 </instances>
 <busses>
 </busses>

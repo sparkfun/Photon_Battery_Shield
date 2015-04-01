@@ -13630,6 +13630,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="91.44" y="121.92" size="1.778" layer="97">LiPo Battery</text>
+<text x="-38.1" y="137.16" size="1.778" layer="97">Optional VIN pads</text>
 <text x="124.46" y="-7.62" size="3.81" layer="94">Cody Knutson</text>
 <text x="195.58" y="-7.62" size="2.54" layer="94">1</text>
 </plain>

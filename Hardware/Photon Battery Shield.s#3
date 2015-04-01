@@ -13624,12 +13624,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="91.44" y="121.92" size="1.778" layer="97">LiPo Battery</text>
+<text x="-38.1" y="137.16" size="1.778" layer="97">Optional VIN pads</text>
 <text x="124.46" y="-7.62" size="3.81" layer="94">Cody Knutson</text>
 <text x="195.58" y="-7.62" size="2.54" layer="94">1</text>
 </plain>
@@ -13671,8 +13671,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SJ2" gate="G$1" x="162.56" y="121.92" rot="R270"/>
 <instance part="P+1" gate="G$1" x="162.56" y="129.54"/>
 <instance part="LOGO1" gate="G$1" x="-43.18" y="-12.7"/>
-<instance part="FID1" gate="G$1" x="195.58" y="2.54"/>
-<instance part="FID2" gate="G$1" x="200.66" y="2.54" rot="R90"/>
+<instance part="FID1" gate="G$1" x="20.32" y="-7.62"/>
 </instances>
 <busses>
 </busses>
