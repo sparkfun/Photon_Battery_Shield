@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -18435,6 +18435,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="104.14" y1="93.98" x2="104.14" y2="170.18" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="104.14" y1="93.98" x2="205.74" y2="93.98" width="0.2032" layer="97" style="shortdash"/>
 <text x="-15.24" y="33.02" size="2.54" layer="97">MAX17043 I2C Address: 0x36</text>
+<text x="-12.7" y="142.24" size="1.778" layer="97" rot="MR0">5v Input</text>
+<text x="-35.56" y="60.96" size="1.27" layer="97">Cut jumper to detach Alert from D6</text>
+<text x="139.7" y="35.56" size="1.27" layer="97">Pullups for I2C on the MCP73831
+(Cut to Disable)</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="35.56" y="127"/>
