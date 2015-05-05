@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -18424,6 +18424,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18481,6 +18482,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FID1" gate="G$1" x="195.58" y="2.54"/>
 <instance part="FID2" gate="G$1" x="200.66" y="2.54" rot="R90"/>
 <instance part="LOGO2" gate="G$1" x="91.44" y="-5.08"/>
+<instance part="GND11" gate="1" x="177.8" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -18552,6 +18554,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-20.32" y1="124.46" x2="-20.32" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="124.46" x2="-20.32" y2="124.46" width="0.1524" layer="91"/>
 <junction x="-20.32" y="124.46"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="GND@21"/>
+<wire x1="175.26" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="137.16" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VIN" class="0">

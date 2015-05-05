@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1946,6 +1946,8 @@ design rules under a new name.</description>
 <wire x1="19.431" y1="10.287" x2="19.812" y2="9.906" width="0.254" layer="1"/>
 <wire x1="19.812" y1="9.906" x2="21.59" y2="9.906" width="0.254" layer="1"/>
 <contactref element="JP2" pad="1"/>
+<contactref element="JP3" pad="GND@2"/>
+<contactref element="JP3" pad="21"/>
 </signal>
 <signal name="VIN">
 <contactref element="C1" pad="1"/>
@@ -1976,7 +1978,6 @@ design rules under a new name.</description>
 <wire x1="22.86" y1="30.48" x2="21.59" y2="30.48" width="0.254" layer="16"/>
 <wire x1="21.59" y1="30.48" x2="20.32" y2="31.75" width="0.254" layer="16"/>
 <wire x1="20.32" y1="31.75" x2="20.32" y2="33.02" width="0.254" layer="16"/>
-<wire x1="20.32" y1="33.02" x2="20.232" y2="34.798" width="0" layer="19" extent="1-16"/>
 <wire x1="12.319" y1="34.798" x2="19.812" y2="34.798" width="0.254" layer="1"/>
 <wire x1="19.812" y1="34.798" x2="20.32" y2="34.29" width="0.254" layer="1"/>
 <via x="20.32" y="33.02" extent="1-16" drill="0.508"/>
@@ -2313,6 +2314,9 @@ design rules under a new name.</description>
 <approved hash="19,16,3620bcc552b433bf"/>
 <approved hash="19,16,476ac83cb76bd41d"/>
 <approved hash="12,16,afd54b02fd7319a4"/>
+<approved hash="19,1,842ab9144b897997"/>
+<approved hash="19,1,3f0d4aff48983d6a"/>
+<approved hash="19,1,a9f3f0570ecf5851"/>
 <approved hash="3,16,afd54b02fd7319a4"/>
 <approved hash="19,1,085158fbab73f7c3"/>
 <approved hash="19,1,13c3415db335ea6d"/>
@@ -2359,7 +2363,6 @@ design rules under a new name.</description>
 <approved hash="19,1,ca03f71d059e3bf8"/>
 <approved hash="19,1,de98e396171f2719"/>
 <approved hash="19,1,b0168d007e854f83"/>
-<approved hash="19,1,842ab9144b897997"/>
 <approved hash="19,1,98a7a5915522650c"/>
 <approved hash="19,1,720d4f3bbc888d8e"/>
 <approved hash="19,1,bd799f676dc45dfa"/>
@@ -2368,13 +2371,11 @@ design rules under a new name.</description>
 <approved hash="19,1,233356c149d83c2a"/>
 <approved hash="19,1,336f469d48a03d52"/>
 <approved hash="19,1,3bed4e1f48a03d52"/>
-<approved hash="19,1,3f0d4aff48983d6a"/>
 <approved hash="19,1,3f2d4adf49c03c32"/>
 <approved hash="19,1,53950809f691a313"/>
 <approved hash="19,1,9fe7c55b3ad36c75"/>
 <approved hash="19,1,3feb4a1948803d72"/>
 <approved hash="19,1,5dea0756f8e2ae64"/>
-<approved hash="19,1,a9f3f0570ecf5851"/>
 <approved hash="19,1,8d9ed61a28866118"/>
 <approved hash="19,1,3f0f4afd49183cea"/>
 <approved hash="19,1,b568eefc125044c2"/>
